@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  font-style: bold;
+  text-align: center;
+  color: rgb(215, 218, 220);
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  border: 
+}
+
+.boxes {
+  width: 700px;
+  margin: auto;
+  border: white 1px solid;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boxes span{
+  border: white 1px solid;
+  border-radius: 20px;
+  padding: 0 1.2rem;
+  margin: .5rem;
+}
+
+.happy{
+  color: #77B439;
+}
+
+.sad{
+  color: #277B75;
+}
+
+.relaxed{
+  color:#C77B40;
+}
+
+.goofy{
+  color: #B73A57;
+}
+
+.heckyeah{
+  color: #E5FC26;
+}
+/* #banner {
+  background: url(headphonesbanner.png);
+  background-repeat: no-repeat;
+  background: size 50%;
+  height: 100px;
+
+} */
