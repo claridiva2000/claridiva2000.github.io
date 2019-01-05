@@ -8,7 +8,12 @@ body {
 header {
   width: 80%;
   margin: auto;
-  border: 
+  border: white 1px solid; 
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  text-decoration: bold;
 }
 
 .boxes {
@@ -18,6 +23,7 @@ header {
   border-radius: 20px;
   text-align: center;
   margin-bottom: 20px;
+  padding: 5px;
 }
 
 .boxes span{
@@ -27,24 +33,83 @@ header {
   margin: .5rem;
 }
 
+h1 {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+  color: white;
+}
+
+.happymenu:hover {
+  background-color: #77B439;
+}
+
+.sadmenu:hover {
+  background-color: #277B75;
+}
+
+.relaxedmenu:hover {
+  background-color: #C77B40;
+}
+
+.goofymenu:hover{
+  background-color: #B73A57;
+}
+
+.heckyeahmenu:hover{
+  background-color: #E5FC26;
+}
+
 .happy{
   color: #77B439;
+  margin-bottom: 5px;
+}
+
+.happy:hover {
+  color: #77B439;
+  border: 2px solid
+}
+
+.sad:hover{
+  color: #277B75;
+  border: 2px solid
 }
 
 .sad{
   color: #277B75;
+  margin-bottom: 5px;
 }
 
 .relaxed{
   color:#C77B40;
+  margin-bottom: 5px;
+}
+
+.relaxed:hover{
+  color:#C77B40;
+  border: 2px solid
 }
 
 .goofy{
   color: #B73A57;
+  margin-bottom: 5px;
+}
+
+.goofy:hover{
+  color: #B73A57;
+  border: 2px solid
 }
 
 .heckyeah{
   color: #E5FC26;
+  margin-bottom: 5px;
+}
+
+.heckyeah:hover{
+  color: #E5FC26;
+  border: 2px solid
 }
 /* #banner {
   background: url(headphonesbanner.png);
@@ -53,3 +118,52 @@ header {
   height: 100px;
 
 } */
+@media(max-width: 900px){
+  header {
+    width: 90%;
+    margin: auto;
+  
+  }
+  }
+
+@media(max-width: 800px){
+.boxes{
+  width: 90%;
+  margin: auto;
+}
+}
+
+@media(max-width: 500px){
+  header {
+    border: none;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  border-radius: 0px;
+  width: 100%;
+  }
+  .boxes{
+  border: none;
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  border-radius: 0px;
+  width: 100%;
+}
+iframe{
+  width: 98%;
+}
+.youtube{
+  position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+.youtube iframe, .youtube object, .youtube embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  }
+
+}
